@@ -15,3 +15,13 @@ TeacherService: This service layer would handle business logic related to teache
 Exception Handling: The provided ExceptionHandle class manages exception handling within the project. It catches specific exceptions, such as ResourceNotFoundException, and returns appropriate error responses to clients. This helps in providing meaningful error messages and maintaining a robust and reliable API.
 
 Overall, in my project, lectures serve as the main entities that contain educational content, slides complement lectures by providing visual aids and content structure, and teachers are responsible for delivering lectures and guiding students through the learning process. Each component plays a crucial role in facilitating effective teaching and learning experiences within the system.
+
+
+Tech Stacks
+Programming Language - Java
+Framework - Spring Boot
+Database - PostgreSQL
+Driver - JDBI
+File Architecture - Hexagonal
+Flow - Controller -> Service -> DAL
+DTO - Request And Response
